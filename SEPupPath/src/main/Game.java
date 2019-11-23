@@ -79,6 +79,10 @@ public class Game {
 	}	
 	
 	public static void displayWorld() {
+		for (int i= 0; i<40; i++) {
+			System.out.println("");
+		}
+		
 		System.out.println("\n");
 		System.out.println("The WORLD");
 		System.out.println("\n");
@@ -111,7 +115,9 @@ public class Game {
 				}
 			}
 		}
-		System.out.println("There are " + counter + " foods in the map");
+		
+		//TODO - just used to mark where this is. TODO making this a boolean accessed line tho
+		//System.out.println("There are " + counter + " foods in the map");
 		return counter;
 
 	}

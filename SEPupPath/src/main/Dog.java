@@ -130,7 +130,7 @@ public class Dog extends Node{
 			return false;
 		}
 		
-		System.out.println("this is check row " + checkRow + " this is check col " + checkCol);
+		//System.out.println("this is check row " + checkRow + " this is check col " + checkCol);
 		
 		Node ground = Game.world[checkRow][checkCol];
 		int c = ground.contains;
@@ -192,11 +192,13 @@ public class Dog extends Node{
 				}catch (Exception e) {
 					e.printStackTrace();
 				}
-				
+				Game.displayWorld();//each successful turn will display the world
 				duplipup.walkRecursive();
 			}
+			
+			
 		}
-		Game.displayWorld();
+		
 	
 	}
 	
@@ -239,7 +241,7 @@ public class Dog extends Node{
 			return;
 		}
 		
-		System.out.println("this is check row " + checkRow + " this is check col " + checkCol);
+		//System.out.println("this is check row " + checkRow + " this is check col " + checkCol);
 		
 		Node ground = Game.world[checkRow][checkCol];
 		int c = ground.contains;
