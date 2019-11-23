@@ -5,3 +5,7 @@ things to add:
 		per row)
 		* boolean for food found
 		* linkedlist for dir directions 
+		
+		
+- make a maze system based on chiseling. The Dog (automatic) will be used to scan the maze and see which areas of food 
+are not accessed. Then we go on a loop or such to make it so that we can access teh food. 
