@@ -1,0 +1,7 @@
+things to add:
+	* We want a thing where the dogs go out and find the path to the food, and the dog that finds a path to food first
+	gets to go to it. 
+		* An arraylist of integers for directions to food (arrayLists don't require the same number of things
+		per row)
+		* boolean for food found
+		* linkedlist for dir directions 
